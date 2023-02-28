@@ -1,0 +1,149 @@
+/* .slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .slider-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .slider-content img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .slider-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    cursor: pointer;
+  }
+  
+  .slider-button:hover {
+    background-color: #ccc;
+  }
+
+.about-section
+{
+    background: black;
+    color: #fff;
+}
+.proj-title
+{
+    margin-left: 14rem;
+}
+.project-underline
+{
+    width: 89px;
+    height: 6px;
+    background: #46E6D1;
+}
+.projects-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.proj-slider
+{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    position: relative;
+}
+.slider-bg-1
+{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    position: relative;
+    background: url(../../Images/MusicAppBG.png);
+    border-radius: 3rem;
+}
+.slider-bg-2
+{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    position: relative;
+    background: url(../../Images/FlightBookingBG.png);
+    border-radius: 3rem;
+}
+.slider-dark-bg
+{
+    background: #0a00007a;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.inside
+{
+    display: flex;
+    padding: 2rem;
+    gap: 6rem;
+}
+.content
+{
+    flex: 1;
+    font-family: Space Grotesk;
+    color: #fff;
+    z-index: 1;
+    margin-top: 4rem;
+}
+.image
+{
+    flex: 1;
+    z-index: 2;
+}
+.content p
+{
+    font-size: 20px;
+    max-width: 25rem;
+    padding-top: 2rem;
+    line-height: 26px;
+    font-weight: 700;
+    position: relative;
+}
+.arrow
+{
+    position: absolute;
+    margin-left: 43px;
+    font-size: 25px;
+}
+
+
+.btns
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0 1rem;
+}
+.slider-btn
+{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.slider-btns
+{
+    background: #46E6D1;
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+} */

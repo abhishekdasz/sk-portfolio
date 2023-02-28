@@ -1,0 +1,19 @@
+.proj-about-sec
+{
+    background: black;
+    color: #fff;
+}
+.proj
+{
+    display: flex;
+    margin-left: 8rem;   
+}
+
+@media screen and (max-width: 768px) 
+{
+    .proj
+    {
+        justify-content: center;
+        margin-left: 0;
+    }   
+}

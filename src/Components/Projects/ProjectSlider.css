@@ -1,0 +1,13 @@
+.ProjectSlider
+{
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+}
+.project-container
+{
+    padding: 0 10px ;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}

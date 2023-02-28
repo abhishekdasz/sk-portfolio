@@ -1,0 +1,37 @@
+/* .slider-bg-img
+{
+    position: absolute;
+}
+.proj-blur-bg
+{
+    width: 100px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.689);
+    background-blend-mode: darken;  
+    position: absolute;
+}
+.slider
+{
+    display: flex;
+    justify-content: center;
+}
+.slider-bg-img img
+{
+    position: relative;
+}
+.project-section
+{
+    display: flex;
+    gap: 10rem;
+    font-family: 'Space Grotesk';
+    position: absolute;
+    background-image: url(../../Images/MusicAppBG.png);
+}
+.left-content
+{
+    max-width: 18rem;
+}
+.left-content h1
+{
+    font-size: 36px;
+} */

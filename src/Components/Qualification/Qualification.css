@@ -1,0 +1,235 @@
+.about-sec
+{
+    background: #000000f0;
+}
+.about-tile h1
+{
+    color: #FFFFFF;
+    margin-left: 8rem;
+}
+.underline-div
+{
+    width: 89px;
+    height: 6px;
+    background: #46E6D1;
+    margin-left: 8rem;
+    margin-bottom: 3rem;
+}
+.about-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .qualification_content
+{
+    margin-left: 6rem;
+} */
+.qualification_data
+{
+    display: grid;
+    /* grid-template-columns: 1fr max-content 1fr; */
+    grid-template-columns: 0.8fr 0.1fr 1fr;
+    column-gap: 1.5rem;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+}
+.qual-round
+{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #FAFF1A;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    transform: translate(1px, 37px);
+}
+.qual-round-2
+{
+    display: inline-block;
+    width: 17.14px;
+    height: 17.14px;
+    background-color: #131CF7;
+    border-radius: 50%; 
+    position: absolute;
+    z-index: 3;
+    margin-top: 1.3px;
+    margin-left: 1.3px;
+    transform: translate(1px, 37px);
+}
+.qual-round-3
+{
+    display: inline-block;
+    width: 11.43px;
+    height: 11.43px;
+    background-color: #46E6D1;
+    border-radius: 50%; 
+    position: absolute;
+    z-index: 3;
+    margin-top: 4.3px;
+    margin-left: 4.3px;
+    transform: translate(1px, 37px);
+}
+.qual-line
+{
+    display: block;
+    width: 9px;
+    height: 100%;
+    background: #3E2573;
+    transform: translate(6px, 0px);
+}
+.left
+{
+    padding: 2rem 2rem;
+}
+.right
+{
+    padding: 2rem;
+}
+.right h1
+{
+    font-size: 1.5rem;
+}
+.qual-title
+{
+    font-size: 1.5rem;
+}
+.qual-details
+{
+    font-size: 1rem;
+}
+
+
+
+/* right part */
+.card
+{
+    width: 200px;
+    height: 227px;
+    background: #000000;
+    color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+.top-2
+{
+    margin-bottom: 4rem;
+}
+.actives
+{
+    background: #46E6D1;
+    color: #000000;
+}
+.card-title
+{
+    font-size: 18px;
+    margin-top: 2rem;
+}
+.card ul
+{
+    margin-top: 1rem;
+    max-width: 8rem;
+    margin-left: 2rem;
+}
+.card-img
+{
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    left: 38px;
+}
+.card-img img
+{
+    padding: 10px;
+}
+.skills-sec
+{
+    display: flex;
+}
+.right-card
+{
+    margin-top: 4rem;
+}
+
+
+@media screen and (max-width: 768px) 
+{
+    .about-content
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        align-items: center;
+    }
+    .skills-sec
+    {
+        display: flex;
+        flex-direction: column;
+    } 
+    .left {
+        padding: 2rem 1rem;
+    }
+    .right h1
+    {
+        font-size: 1rem;
+    }
+    .qual-title
+    {
+        font-size: 1rem;
+    }
+    .qual-details
+    {
+        font-size: 0.7rem;
+    }
+    .qualification_data
+    {
+        column-gap: 0;
+    }
+    .qualification_content
+    {
+        margin-left: 1rem;
+    }
+    .card
+    {
+        margin-left: 0;
+        width: 155px;
+    }
+    .about-tile
+    {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .about-tile h1 
+    {
+        margin-left: 0;
+    }
+    .underline-div 
+    {
+        margin-left: 0;
+    }
+
+    .left-card
+    {
+        display: flex;
+        gap: 1.4rem;
+    }
+    .right-card
+    {
+        display: flex;
+        gap: 1.4rem;
+
+        margin-top: 0;
+    }
+}

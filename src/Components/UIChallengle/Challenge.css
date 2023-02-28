@@ -1,0 +1,55 @@
+.Chal-sec
+{
+    background: #000000f0;
+    color: #fff;
+}
+.chal-title
+{
+    margin-left: 8rem;
+}
+.chal-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+    padding: 1rem 6rem;
+}
+.underline
+{
+    width: 89px;
+    height: 6px;
+    background: #46E6D1;
+} 
+.chal-btn
+{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.chal-btnn
+{
+    padding: 0.5rem 1rem;
+    background: #46E6D1;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+}
+.chal-btnn:hover
+{
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) 
+{
+    .chal-title
+    {
+        margin-left: 0;
+    }
+    .chal-box
+    {
+        padding: 0;
+        gap: 0.8rem;
+    }
+}

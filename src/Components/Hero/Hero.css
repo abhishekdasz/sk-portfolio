@@ -1,0 +1,114 @@
+.hero
+{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #fff;
+}
+.blur-bg
+{
+    background: rgba(40, 26, 190, 0.2);
+    filter: blur(95px);
+    position: absolute;
+    width: 647px;
+    height: 492px;
+    left: -199px;
+    top: -192px;
+}
+
+.name
+{
+    margin-top: 10rem;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hello
+{
+    font-weight: 400;
+    font-size: 1.5rem
+}
+.sk
+{
+    font-size: 2.6rem;
+    font-weight: 700;
+}
+.des
+{
+    font-weight: 700;
+    font-size: 1.5rem
+}
+.about
+{
+    margin-top: 3rem;
+    font-size: 20px;
+    max-width: 60rem;
+    text-align: center;
+}
+.buttons
+{
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+}
+.hero-btn
+{
+    font-size: 1.2rem;
+    padding: 0.7rem 2rem;
+    border-radius: 18px;
+    background: #46E6D1;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.con
+{
+    color: black;
+    font-weight: 700;
+}
+.download
+{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.social-icons
+{
+    margin-top: 4rem;
+    display: flex;
+    gap: 3rem;
+    padding: 1.3rem;
+}
+.social-icons h1
+{
+    font-size: 1.6rem;
+}
+.social-icons img
+{
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) 
+{
+    .social-icons
+    {
+        gap: 1rem;
+    }
+    .name
+    {
+        margin-top: 5rem;
+    }
+    .blur-bg
+    {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+
+

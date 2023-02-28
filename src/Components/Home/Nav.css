@@ -1,0 +1,30 @@
+.nav
+{
+    background-color: black;
+    color: #fff;
+}
+.nav ul
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 6rem;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+.nav ul li a 
+{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 768px) 
+{
+    .nav
+    {
+        display: none;
+    }
+}
